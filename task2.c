@@ -28,6 +28,11 @@ int findLRS(char str[]) {
     return dp[n][n];
 }
 
+/* Output:
+Length of LRS = 3
+Longest Repeating Subsequence is: ABD
+*/
+
 void printLRS(char str[]) {
     int n = strlen(str);
     int dp[n+1][n+1];
@@ -80,3 +85,4 @@ int main() {
 
     return 0;
 }
+
